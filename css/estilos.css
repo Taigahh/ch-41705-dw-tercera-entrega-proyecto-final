@@ -146,12 +146,8 @@ a {
 
 .fuente {
     font-family: lato;
-    font-weight: 400;
+    font-weight: 700;
     color: black;
-}
-
-.orientacion {
-    margin: 10px;
 }
 
 .recuadro {

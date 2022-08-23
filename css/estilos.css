@@ -202,4 +202,8 @@ footer {
         width: 100%;
         height: 100%;
     }
+
+    .recuadro {
+        border-style: none;
+    }
 }

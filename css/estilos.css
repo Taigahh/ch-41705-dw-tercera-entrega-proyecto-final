@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* Estilos del Header */
 header {
   position: sticky;
   top: 0;
@@ -17,12 +16,11 @@ header {
   color: #f62587d3; }
 
 .nav-link:hover {
-  color: rgba(255, 17, 0, 0.863); }
+  color: cadetblue; }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28246, 37, 135, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
-/* Estilos Main */
 main {
   background-color: #f62587d3; }
 
@@ -130,7 +128,6 @@ a {
   border-right: solid black;
   border-bottom: solid black; }
 
-/* Estilos Footer */
 footer {
   padding: 10px; }
 

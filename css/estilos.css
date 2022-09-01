@@ -15,7 +15,7 @@ header {
   color: #f62587d3; }
 
 .nav-link:hover {
-  color: cadetblue; }
+  color: gold; }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28246, 37, 135, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
@@ -71,15 +71,35 @@ main {
   font-size: large;
   color: black; }
 
-.tamFoto {
+.tamFoto, .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8 {
   margin: 10px;
   width: 400px;
-  height: 400px;
+  height: 400px; }
+
+.foto1 {
   border-style: groove;
-  border-top: solid black;
-  border-left: solid black;
-  border-right: solid black;
-  border-bottom: solid black; }
+  border: solid black; }
+
+.foto2 {
+  border: solid #FF0000; }
+
+.foto3 {
+  border: solid gold; }
+
+.foto4 {
+  border: solid #00acEE; }
+
+.foto5 {
+  border: solid brown; }
+
+.foto6 {
+  border: solid orange; }
+
+.foto7 {
+  border: solid green; }
+
+.foto8 {
+  border: solid blue; }
 
 a {
   text-decoration: none; }
@@ -152,12 +172,12 @@ footer {
 
 /* media queries */
 @media only screen and (max-width: 1024px) {
-  .tamFoto {
+  .tamFoto, .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8 {
     width: 100%;
     height: 100%; } }
 
 @media only screen and (max-width: 500px) {
-  .tamFoto {
+  .tamFoto, .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8 {
     width: 100%;
     height: 100%; }
   .recuadro {

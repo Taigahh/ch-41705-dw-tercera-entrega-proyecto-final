@@ -3,11 +3,7 @@ footer {
 }
 
 .insta {
-    font-size: 30px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #f62587d3;
+    @include redes;
 }
   
 .insta:hover {
@@ -15,11 +11,7 @@ footer {
 }
 
 .twit {
-    font-size: 30px;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #f62587d3;
+    @include redes;
 }
 
 .twit:hover {

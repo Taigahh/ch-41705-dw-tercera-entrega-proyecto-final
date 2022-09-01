@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixin";
 @import "./header";
 @import "./main";
 @import "./footer";
@@ -8,15 +9,13 @@
 
 @media only screen and (max-width: 1024px) {
     .tamFoto{
-        width: 100%;
-        height: 100%;
+        @include shield;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .tamFoto{
-        width: 100%;
-        height: 100%;
+        @include shield;
     }
 
     .recuadro {

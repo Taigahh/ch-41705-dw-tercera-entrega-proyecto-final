@@ -1,10 +1,9 @@
 main {
-    background-color: #f62587d3;
+    background-color: map-get($colUsados , "rosa" );
 }
 
 .escudo {
-    width: 100%;
-    height: 100%;
+    @include shield;
 }
 
 #video {
@@ -12,10 +11,7 @@ main {
 }
 
 #presentacionJuego {
-    padding: 10px;
-    font-family: lato;
-    font-weight: 700;
-    color: black;
+    @include pJuego;
 }
 
 #presentacion {
@@ -23,31 +19,20 @@ main {
     font-family: lato;
     font-weight: 700;
     font-size: large;
-    color: black;
+    color: map-get($colUsados, "negro" );
 }
 
 #pregunta {
-    padding: 10px;
-    font-family: lato;
-    font-weight: 700;
-    color: black;
+    @include pJuego;
 }
 
 #iframe {
-    border-style: groove;
-    border-top: solid black;
-    border-left: solid black;
-    border-right: solid black;
-    border-bottom: solid black;
+    @include estiloBorde;
 }
 
 .disImagen {
     margin: 10px;
-    border-style: groove;
-    border-top: solid black;
-    border-left: solid black;
-    border-right: solid black;
-    border-bottom: solid black;
+    @include estiloBorde;
 }
 
 .letra {
@@ -55,18 +40,54 @@ main {
     font-family: lato;
     font-weight: 700;
     font-size: large;
-    color: black;
+    color: map-get($colUsados, "negro" );
 }
 
 .tamFoto{
     margin: 10px;
     width: 400px;
     height: 400px;
+}
+
+.foto1 {
+    @extend .tamFoto;
     border-style: groove;
-    border-top: solid black;
-    border-left: solid black;
-    border-right: solid black;
-    border-bottom: solid black;
+    border: solid map-get($colUsados, "negro" );
+}
+
+.foto2 {
+    @extend .tamFoto;
+    border: solid map-get($colUsados, "rojo" );
+}
+
+.foto3 {
+    @extend .tamFoto;
+    border: solid map-get($colUsados, "oro" );
+}
+
+.foto4 {
+    @extend .tamFoto;
+    border: solid map-get($colUsados, "celeste" );
+}
+
+.foto5 {
+    @extend .tamFoto;
+    border: solid map-get($colUsados, "marron" );
+}
+
+.foto6 {
+    @extend .tamFoto;
+    border: solid map-get($colUsados, "naranja" )
+}
+
+.foto7 {
+    @extend .tamFoto;
+    border: solid map-get($colUsados, "verde" );
+}
+
+.foto8 {
+    @extend .tamFoto;
+    border: solid map-get($colUsados, "azul" );
 }
 
 a {
@@ -78,50 +99,41 @@ a {
 }
 
 .estiloLista a {
-    color: black;
+    color: map-get($colUsados, "negro" );
 }
 
 .estiloLista li {
-    color: black;
+    color: map-get($colUsados, "negro" );
 }
 
 .red1:hover {
-    color: #8a3ab9;
+    color: map-get($colUsados, "purpura" )
 }
 
 .red2:hover {
-    color: #00acEE;
+    color: map-get($colUsados, "celeste" );
 }
 
 .red3:hover {
-    color: #6441a5;
+    color: map-get($colUsados, "violeta" );
 }
 
 .red4:hover {
-    color: #FF0000;
+    color: map-get($colUsados , "rojo" );
 }
 
 .tam {
     margin: 10px;
-    width: 100%;
-    height: 100%;
-    border-style: groove;
-    border-top: solid black;
-    border-left: solid black;
-    border-right: solid black;
-    border-bottom: solid black;
+    @include shield;
+    @include estiloBorde;
 }
 
 .fuente {
     font-family: lato;
     font-weight: 700;
-    color: black;
+    color: map-get($colUsados, "negro" );
 }
 
 .recuadro {
-    border-style: groove;
-    border-top: solid black;
-    border-left: solid black;
-    border-right: solid black;
-    border-bottom: solid black;
+    @include estiloBorde;
 }

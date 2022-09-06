@@ -137,3 +137,19 @@ a {
 .recuadro {
     @include estiloBorde;
 }
+
+.btn {
+    background-color: map-get($colUsados, "rosa" );
+    border-radius: 20px;
+}
+
+.btn:hover {
+    color: map-get($colUsados, "azul" );
+}
+
+.texto {
+    font-family: lato;
+    font-weight: 700;
+    color: map-get($colUsados, "rosa" );
+}
+

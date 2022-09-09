@@ -22,6 +22,9 @@ main {
   width: 100%;
   height: 100%; }
 
+#twitter {
+  padding: 10px; }
+
 #video {
   padding: 10px; }
 
@@ -183,6 +186,10 @@ footer {
     width: 100%;
     height: 100%; }
   .cartas {
+    display: none; }
+  .div1 {
+    display: none; }
+  .div2 {
     display: none; } }
 
 @media only screen and (max-width: 500px) {
@@ -192,4 +199,8 @@ footer {
   .recuadro {
     border-style: none; }
   .cartas {
+    display: none; }
+  .div1 {
+    display: none; }
+  .div2 {
     display: none; } }
